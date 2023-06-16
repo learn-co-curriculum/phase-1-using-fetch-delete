@@ -6,10 +6,14 @@
 
 ## Introduction
 
-The final piece of our CRUD actions - DELETE. With this last piece of knowledge,
-we'll be able to set up Frontends that can initiate any kind of `fetch` request
-to our server - Creating data with `POST`, Reading data with `GET`, Updating
-data with `PATCH`, and now, finally, Deleting data with `DELETE`.
+Ok, we're read to tackle the final CRUD action - `DELETE`. As you have no doubt
+guessed, we use `DELETE` requests to ask our server to delete pieces of data
+from our Backend.
+
+Once we've mastered `DELETE` requests, we'll be able to set up websites that can
+initiate any kind of `fetch` request to our server - Creating data with `POST`,
+Reading data with `GET`, Updating data with `PATCH`, and now, finally, Deleting
+data with `DELETE`. Full CRUD!
 
 ## Configuring a DELETE Request
 
@@ -62,14 +66,12 @@ fetch(`http://localhost:3000/data/${id}`, deleteObj)
 
 ## Conclusion
 
-And that's it! You now have the ability to initiate full CRUD from the Frontend!
+And that's it! You now have the ability to initiate full CRUD using `fetch`!
 
 Now that you've covered JavaScript Fundamentals, DOM Manipulation, Event
 Handling, and Communication with the Server, you're ready to start building
-fully functional websites.
-
-The next step is to start connecting all of these tools and concepts together.
-We'll start workking through that together in the coming sections.
+fully functional websites. In the coming sections, we'll practice weaving these
+concepts together to build complex, feature rich user interfaces.
 
 ## Resources
 
